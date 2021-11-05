@@ -212,7 +212,7 @@ button:hover {
 /* Responsive 500px */
 
 @media (max-width: 500px) {
-  /* Header */
+  /* header section styles */
   nav {
     width: 40%;
   }
@@ -223,15 +223,43 @@ button:hover {
     border-left: 1px solid #626262;
   }
 
-  /* title section */
+  /* title section styles*/
   .title-container div {
     width: 100%;
     margin: 5% 0 1% 0;
+    background-size: cover;
   }
   .title-container h1 {
     font-size: 3rem;
   }
+  .title-container hr {
+    width: 100%;
+  }
   button {
     font-size: 1.2rem;
+  }
+
+  /* artist section styles */
+  .artists-container {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15%;
+  }
+  .artist {
+    width: 65%;
+  }
+  .artist img {
+    height: 16rem;
+    width: 75%;
+  }
+  .artist a {
+    font-size: 1.3rem;
+    color: #626262;
+  }
+  .bio {
+    font-size: 0.8rem;
+    line-height: 1;
+    margin-bottom: 8%;
+    color: #626262;
   }
 }
